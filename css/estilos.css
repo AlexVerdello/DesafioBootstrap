@@ -1,9 +1,5 @@
-.bg-main {
-  background-color: rgb(137, 187, 245);
-}
-
-.nav-item:hover {
-  color: rgb(245, 14, 14);
+.bg-light {
+  background-color: #bcebdf;
 }
 
 .pedidos__formulario {
