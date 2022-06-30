@@ -1,0 +1,55 @@
+.bg-main{ 
+    background-color: rgb(137, 187, 245);
+}
+.nav-item:hover{
+    color: rgb(245, 14, 14);
+}
+.pedidos__formulario{
+    width: 80vw;
+    margin: 1em auto;
+}
+
+.pedidos__formulario form {
+    width: 100%;
+} 
+
+/* Estilos de "Productos" */
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .productos__card {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        img{
+            height: 200px
+        }
+        .card{
+            margin-bottom: 32px;
+        }
+    }
+}
+
+
+
+/* Fin de Estilos de "Productos" */
+
+
+// Estilos de Footer
+footer{
+    .contacto{
+        ul{
+            list-style: none;
+        }
+
+    }
+}
+
+
+// Fin de estilos "Footer"
+
+
+
