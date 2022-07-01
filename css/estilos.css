@@ -11,6 +11,29 @@
   width: 100%;
 }
 
+.nosotros {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nosotros .columna-titulo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-right: 5px solid #bcebdf;
+  height: 80%;
+}
+.nosotros .columna-titulo h2 {
+  font-size: 3em;
+}
+.nosotros .columna-parrafo {
+  width: 70%;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
 /* Estilos de "Productos" */
 .productos {
   display: flex;
@@ -31,6 +54,26 @@
 }
 
 /* Fin de Estilos de "Productos" */
+.trabajos__galeria {
+  width: 85vw;
+  height: 60vmin;
+  display: flex;
+  gap: 15px;
+}
+.trabajos__galeria img {
+  height: 100%;
+  flex: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 2s;
+}
+.trabajos__galeria img:hover {
+  flex: 2;
+}
+
 footer .contacto ul {
   list-style: none;
 }/*# sourceMappingURL=estilos.css.map */
